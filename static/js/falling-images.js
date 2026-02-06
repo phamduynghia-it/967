@@ -1,5 +1,5 @@
 // Danh sách các ảnh trong thư mục static (bạn thêm ảnh vào đây)
-const imageList = Array.from({ length: 4 }, (_, i) => `static/a${i + 1}.jpg`);
+const imageList = Array.from({ length: 5 }, (_, i) => `static/a${i + 1}.jpg`);
 let currentIndex = 0;
 const fallInterval = 4000; // 3 giây
 const fallDuration = 8000; // Thời gian rơi (ms), chỉnh cho giống tốc độ chữ
